@@ -55,3 +55,24 @@ def Codificacion(s):
 		l = Original.get(rem)
 		s=s.replace(rem,l)
 	return s
+
+def Decodificar(Dicc):
+	Sera=[]
+	items = Dicc.items()
+	res=""
+	for x in items:
+		if x[1]==1:
+			Sera.append(x[0])
+
+	Sera2=[]
+	for q in Sera:
+		if q in letrasProposicionales:
+			Sera2.append(q)
+		else:
+			pass
+	for k in Sera2:
+		res= res + ","  + Inversa.get(k)
+
+	return res
+		
+
