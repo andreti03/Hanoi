@@ -176,7 +176,7 @@ res= CodGraf(lista)
 for q in res:
 	print(q)
 """
-def fin(l)
+def fin(l):
 	Mov0=[res[0],res[1],res[2]]
 	Mov1=[res[3],res[4],res[5]]
 	Mov2=[res[6],res[7],res[8]]
